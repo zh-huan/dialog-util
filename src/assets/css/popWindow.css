@@ -1,0 +1,297 @@
+
+/* 弹出框 */
+.dialog-pop{
+    display: block;
+    opacity: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1000;
+}
+.dialog-pop-bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #000;
+    opacity: 0.3;
+    filter: alpha(opacity=30);
+}
+.dialog-pop-panel{
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    vertical-align: top;
+
+}
+.dialog-pop-panel-require{
+    top: 100px;
+    left: 50%;
+    margin-left: -204px;
+}
+.dialog-pop-panelmain{
+    display: inline-block;
+    position: relative;
+    width:100%;
+    height: 100%;
+    padding: 30px 4px 4px;
+    border-radius: 4px;
+    /* background-color: #45A4EE; */
+    background: linear-gradient(to right, #38C4C5, #648BD6);
+    vertical-align: top;
+}
+.dialog-pop-top{
+    /*display: inline-block;*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 30px;
+    background-color: transparent;
+    cursor: move;
+    vertical-align: top;
+}
+.dialog-pop-title{
+    display: inline-block;
+    margin: 0;
+    padding: 5px 5px 5px 10px;
+    color: #fff;
+    font-size: 16px;
+    line-height: 20px;
+    cursor: text;
+    text-align: left;
+    vertical-align: middle;
+}
+.dialog-pop-full{
+    display: inline-block;
+    float: right;
+    width: 26px;
+    height: 30px;
+    margin: 0;
+    padding: 6px 4px;
+    border: 0;
+    cursor: pointer;
+    vertical-align: middle;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: 4px 6px;
+    background-image: url(../box_enlarge_icon.png);
+}
+.dialog-pop-full:hover{
+    background-color: #587FC6;
+}
+.dialog-pop-full:active{
+    background-color: #486CAC;
+}
+.dialog-pop-full:focus{
+    outline: 0;
+}
+
+.dialog-pop-close{
+    display: inline-block;
+    float: right;
+    width: 26px;
+    height: 30px;
+    margin: 0;
+    padding: 6px 4px;
+    border: 0;
+    cursor: pointer;
+    vertical-align: middle;
+    border-radius: 0 4px 0 0;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: 4px 6px;
+    background-image: url(../box_shut_icon.png);
+}
+.dialog-pop-close:hover{
+    background-color: #FB6155;
+}
+.dialog-pop-close:active{
+    background-color: #EC4839;
+}
+.dialog-pop-close:focus{
+    outline: 0;
+}
+
+.dialog-pop-body{
+    display: inline-block;
+    width:100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    vertical-align: top;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.dialog-pop-ummove .dialog-pop-top{
+    cursor: default;
+}
+.dialog-pop-ummove .dialog-pop-full{
+    background-image: url(../box_shrink_icon.png);
+}
+
+/* 弹出框：信息显示 */
+.dialog-msg{
+    display: inline-block;
+    position: relative;
+    /*width: 400px;
+    min-height: 50px;*/
+    width: 100%;
+    min-height: 100%;
+    background-color: #fff;
+}
+.dialogmsg-content{
+    width: 100%;
+    padding: 20px 15px 10px 70px;
+    text-align: left;
+    font-size: 14px;
+    line-height: 20px;
+}
+.dialogicon{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+}
+.dialogicon-1{
+    background-image: url(../box_ordinary_icon.png);
+}
+.dialogicon-2{
+    background-image: url(../box_caveat_icon.png);
+}
+.dialogicon-3{
+    background-image: url(../box_error_icon.png);
+}
+.dialogicon-4{
+    background-image: url(../box_questions_icon.png);
+}
+.dialogmsg-bottom{
+    width: 100%;
+    padding: 10px 10px;
+    text-align: right;
+}
+.dialogmsg-detail{
+    position: relative;
+    width: 100%;
+    height: 160px;
+    margin-top: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    text-align: left;
+    overflow-y: auto;
+    overflow-x: hidden;
+    word-break: break-all;
+    font-size: 12px;
+    line-height: 20px;
+}
+.fade-enter-active, .fade-leave-active {
+    transition: opacity .5s;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+    opacity: 0;
+}
+.dialogconf-content{
+    width: 100%;
+    padding: 20px 20px 10px 70px;
+    text-align: left;
+    font-size: 14px;
+    line-height: 20px;
+}
+.dialogconf-bottom{
+    width: 100%;
+    padding: 10px 10px;
+    text-align: right;
+}
+
+/* 弹出框：按钮 */
+.dialogbtn-detail{
+    padding: 0;
+    margin: 0px 5px;
+    font-size: 12px;
+    line-height: 20px;
+    border-width: 0;
+    color: #35C9C3;
+    background-color: transparent;
+    vertical-align: middle;
+}
+.dialogbtn-detail:hover{
+    color: #0AB097;
+}
+.dialogbtn-detail:active{
+    color: #059A84;
+}
+.dialogbtn-detail:focus{
+    outline: 0;
+}
+.dialogbtn-ddown{
+    display: inline-block;
+    width: 16px;
+    height: 7px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: transparent;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-image: url(../box_detail_down.png);
+    vertical-align: middle;
+}
+.dialogbtn-dup{
+    display: inline-block;
+    width: 16px;
+    height: 7px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: transparent;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-image: url(../box_detail_up.png);
+    vertical-align: middle;
+}
+.dialogbtn-ok{
+    vertical-align: middle;
+}
+.dialogbtn-yes{
+    margin: 0 10px;
+}
+.dialogbtn-no{
+    margin: 0 10px;
+}
+.dialogbtn-submit{
+    padding: 4px 15px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #ffffff;
+    border-color: #EF9360;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    background-color: #EF9360;
+}
+.dialogbtn-submit:hover {
+    background-color: #EA712E;
+}
+.dialogbtn-close{
+    padding: 6px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #ffffff;
+    border-color: #51B4EA;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    background-color: #51B4EA;
+}
+.dialogbtn-close:hover {
+    background-color: #1294DA;
+}

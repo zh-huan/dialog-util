@@ -1,0 +1,310 @@
+﻿
+/* 按钮 */
+/* 按钮：蓝色 */
+.commmon__btn-blue{
+    padding: 5px 15px;
+    margin: 0px 5px;
+	font-size: 12px;
+	line-height: 20px;
+	color: #ffffff;
+	border-width: 0;
+	background-color: #3385ff;
+    vertical-align: middle;
+}
+.commmon__btn-blue:hover{
+    background-color: #0f65e8;
+}
+.commmon__btn-blue:active{
+    background-color: #165bc5;
+}
+.commmon__btn-blue:disabled{
+    background-color: #b6b6b6;
+}
+/* 按钮：绿色 */
+.commmon__btn-green{
+    padding: 5px 15px;
+    margin: 0px 5px;
+	font-size: 12px;
+	line-height: 20px;
+	color: #ffffff;
+	border-width: 0;
+	background-color: #28bd0b;
+    vertical-align: middle;
+}
+.commmon__btn-green:hover{
+    background-color: #20920a;
+}
+.commmon__btn-green:active{
+    background-color: #1e820b;
+}
+.commmon__btn-green:disabled{
+    background-color: #b6b6b6;
+}
+/* 按钮：删除 */
+.commmon__btn-delete{
+    padding: 5px 15px;
+    margin: 0px 5px;
+	font-size: 12px;
+	line-height: 20px;
+	color: #ffffff;
+	border-width: 0;
+	background-color: #d9534f;
+    vertical-align: middle;
+}
+.commmon__btn-delete:hover{
+    background-color: #c9302c;
+}
+.commmon__btn-delete:active{
+    background-color: #d9534f;
+}
+.commmon__btn-delete:disabled{
+    background-color: #b6b6b6;
+}
+/* 按钮：确认、提交 */
+.commmon__btn-confirm{
+    padding: 5px 15px;
+    margin: 0px 5px;
+	font-size: 12px;
+	line-height: 20px;
+	color: #ffffff;
+	border-width: 0;
+	background-color: #f0ad4e;
+    vertical-align: middle;
+}
+.commmon__btn-confirm:hover{
+    background-color: #ec971f;
+}
+.commmon__btn-confirm:active{
+    background-color: #d58512;
+}
+.commmon__btn-confirm:disabled{
+    background-color: #b6b6b6;
+}
+/* 按钮:取消 */
+.commmon__btn-cancel{
+    padding: 5px 15px;
+    margin: 0px 5px;
+	font-size: 12px;
+	line-height: 20px;
+	color: #ffffff;
+	border-width: 0;
+	background-color: #e1e1e1;
+    vertical-align: middle;
+}
+.commmon__btn-cancel:hover{
+    background-color: #ccc;
+}
+.commmon__btn-cancel:active{
+    background-color: #bbb;
+}
+.commmon__btn-cancel:disabled{
+    background-color: #b6b6b6;
+}
+/* 按钮：小尺寸 */
+.commmon__btn-small{
+    padding: 2px 10px;
+    margin: 0px 2px;
+	font-size: 12px;
+	line-height: 20px;
+}
+
+/* 按钮：大尺寸 */
+.commmon__btn-large{
+    padding: 10px 16px;
+    margin: 0px 6px;
+	font-size: 18px;
+	line-height: 20px;
+}
+
+/* 按钮：上传 */
+.commmon__btn-upload{
+    display: inline-block;
+    position: relative;
+    height: 30px;
+    margin: 0 5px;
+    
+    line-height: 30px;
+    font-size: 12px;
+    color: #fff;
+    background-color: #3385ff;
+    vertical-align: middle;
+}
+.commmon__btn-upload:hover{
+    background-color: #317ef3;
+}
+.commmon__btn-upload .webuploader-pick{
+    padding: 5px 15px;
+    line-height: 20px;
+}
+.commmon__btn-upload label{
+    margin: 0;
+}
+
+
+
+
+
+
+
+/* 新规范 */
+/* 普通按钮：类型1 */
+.mt-btn__type1{
+    padding: 5px 15px;
+    margin: 0px 5px;
+	font-size: 12px;
+	line-height: 20px;
+	color: #ffffff;
+	border-width: 0;
+    border-radius: 2px;
+	background-color: #45A4EE;
+    vertical-align: middle;
+}
+.mt-btn__type1:hover{
+    background-color: #3880EB;
+}
+.mt-btn__type1:active{
+    background-color: #2869CB;
+}
+.mt-btn__type1:disabled{
+    background-color: #b6b6b6;
+}
+
+/* 普通按钮：类型2 */
+.mt-btn__type2{
+    padding: 5px 15px;
+    margin: 0px 5px;
+	font-size: 12px;
+	line-height: 20px;
+	color: #ffffff;
+	border-width: 0;
+    border-radius: 2px;
+	background-color: #19BFB8;
+    vertical-align: middle;
+}
+.mt-btn__type2:hover{
+    background-color: #0AB097;
+}
+.mt-btn__type2:active{
+    background-color: #059A84;
+}
+.mt-btn__type2:disabled{
+    background-color: #b6b6b6;
+}
+
+/* 普通按钮：类型3 */
+.mt-btn__type3{
+    padding: 5px 15px;
+    margin: 0px 5px;
+	font-size: 12px;
+	line-height: 20px;
+	color: #ffffff;
+	border-width: 0;
+    border-radius: 2px;
+	background-color: #FFBA14;
+    vertical-align: middle;
+}
+.mt-btn__type3:hover{
+    background-color: #ECAC11;
+}
+.mt-btn__type3:active{
+    background-color: #EC9C11;
+}
+.mt-btn__type3:disabled{
+    background-color: #b6b6b6;
+}
+
+/* 普通按钮：提交 */
+.mt-btn__submit{
+    padding: 5px 15px;
+    margin: 0px 5px;
+	font-size: 12px;
+	line-height: 20px;
+	color: #ffffff;
+	border-width: 0;
+    border-radius: 2px;
+	background-color: #45A4EE;
+    vertical-align: middle;
+}
+.mt-btn__submit:hover{
+    background-color: #3880EB;
+}
+.mt-btn__submit:active{
+    background-color: #2869CB;
+}
+.mt-btn__submit:disabled{
+    background-color: #b6b6b6;
+}
+
+/* 普通按钮：取消 */
+.mt-btn__cancel{
+    padding: 5px 15px;
+    margin: 0px 5px;
+	font-size: 12px;
+	line-height: 20px;
+	color: #ffffff;
+	border-width: 0;
+    border-radius: 2px;
+	background-color: #FFBA14;
+    vertical-align: middle;
+}
+.mt-btn__cancel:hover{
+    background-color: #ECAC11;
+}
+.mt-btn__cancel:active{
+    background-color: #EC9C11;
+}
+.mt-btn__cancel:disabled{
+    background-color: #b6b6b6;
+}
+
+/* 普通按钮：小尺寸 */
+.mt-btn__small{
+    padding: 2px 10px;
+    margin: 0px 2px;
+	font-size: 12px;
+	line-height: 20px;
+}
+
+/* 普通按钮：大尺寸 */
+.mt-btn__large{
+    padding: 10px 16px;
+    margin: 0px 6px;
+	font-size: 18px;
+	line-height: 20px;
+}
+
+
+/* 普通按钮：上传 */
+.mt-btn__upload{
+    display: inline-block;
+    position: relative;
+    height: 30px;
+    margin: 0 5px;
+    border-width: 0;
+    border-radius: 2px;
+    line-height: 30px;
+    font-size: 12px;
+    color: #fff;
+    background-color: #45A4EE;
+    overflow: hidden;
+    vertical-align: middle;
+}
+.mt-btn__upload:hover{
+    background-color: #3880EB;
+}
+.mt-btn__upload .webuploader-pick{
+    padding: 5px 15px;
+    line-height: 20px;
+    vertical-align: top;
+}
+.mt-btn__upload label{
+    margin: 0;
+    border-radius: 2px;
+}
+.mt-btn__upload-text{
+    padding: 5px 15px;
+    line-height: 20px;
+}
+.webuploader-pick .mt-btn__upload-text{
+    padding: 0;
+}

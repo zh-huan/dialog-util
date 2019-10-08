@@ -1,0 +1,30 @@
+{
+  "id": "1446553",
+  "name": "弹框",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "6193526",
+      "name": "关闭弹出窗口",
+      "font_class": "guanbidanchuchuangkou",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "9361618",
+      "name": "弹出窗",
+      "font_class": "shouqi",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "9453585",
+      "name": "弹出窗",
+      "font_class": "danchuchuang",
+      "unicode": "e6c4",
+      "unicode_decimal": 59076
+    }
+  ]
+}
